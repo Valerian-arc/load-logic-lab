@@ -107,6 +107,7 @@ All colors MUST be HSL.
     --gradient-hero: radial-gradient(1200px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), hsl(var(--primary) / 0.2), transparent 60%);
   }
 
+}
   @layer utilities {
     .story-link { position: relative; display: inline-block; }
     .story-link::after {
