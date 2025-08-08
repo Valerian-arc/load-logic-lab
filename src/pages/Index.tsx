@@ -2,6 +2,7 @@ import WeightChecker from "@/components/tools/WeightChecker";
 import StateAbbrevQuiz from "@/components/games/StateAbbrevQuiz";
 import BolRateConChecker from "@/components/games/BolRateConChecker";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Index = () => {
   return (
@@ -18,6 +19,7 @@ const Index = () => {
           <div className="mt-6 flex justify-center gap-3">
             <a href="#checker"><Button variant="hero">Check Weights</Button></a>
             <a href="#bol"><Button variant="outline">BOL vs Rate Con</Button></a>
+            <Link to="/games"><Button variant="secondary">Games Hub</Button></Link>
           </div>
         </div>
       </header>
